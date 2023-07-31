@@ -10,7 +10,7 @@ class GPT2GeneratorGUI:
         self.tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
         self.window = tk.Tk()
-        self.window.title("B_GPT")
+        self.window.title("Behrouz Rozmeh")
         self.window.geometry("600x400")
 
         # Prompt label and entry
@@ -79,8 +79,6 @@ class GPT2GeneratorGUI:
 
     def run(self):
         self.window.mainloop()
-
-
 if __name__ == '__main__':
     gui = GPT2GeneratorGUI()
     gui.run()
